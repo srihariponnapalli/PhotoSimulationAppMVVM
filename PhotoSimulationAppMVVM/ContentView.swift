@@ -54,7 +54,7 @@ struct ContentView: View {
                         .padding()
                     Text("Amount: \(extractedData.amount ?? "Not found")")
                         .padding()
-                    Text("Date: \(extractedData.date ?? "Not found")")
+                    Text("Date: \(extractedData.date ?? "Not found ")")
                         .padding()
                 }
             }
